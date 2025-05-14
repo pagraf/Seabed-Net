@@ -1,18 +1,17 @@
-# Deep learning-based bathymetry retrieval without in-situ depths using remote sensing imagery and SfM-MVS DSMs with data gaps
+# Seabed-Net: A multi-task network for joint bathymetry and pixel-based seabed classification from remote sensing imagery in shallow waters
 
 This repository contains the code of the paper 
 >Panagiotis Agrafiotis, Begüm Demir,
-Deep learning-based bathymetry retrieval without in-situ depths using remote sensing imagery and SfM-MVS DSMs with data gaps,
+Seabed-Net: A multi-task network for joint bathymetry and pixel-based seabed classification from remote sensing imagery in shallow waters,
 ISPRS Journal of Photogrammetry and Remote Sensing,
-Volume 225,
+Volume XXX,
 2025,
-Pages 341-361,
-ISSN 0924-2716,
-https://doi.org/10.1016/j.isprsjprs.2025.04.020.
+Pages XXX-XXX,
+ISSN 0924-2716
 <br />
 
 ## Abstract of the respective paper [![Elsevier Paper](https://img.shields.io/static/v1?label=Elsevier&message=Paper&color=FF6600)](https://doi.org/10.1016/j.isprsjprs.2025.04.020) [![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2504.11416) [![MagicBathy](https://img.shields.io/badge/MagicBathy-Project-red.svg)](https://www.magicbathy.eu)
-Accurate, detailed, and high-frequent bathymetry is crucial for shallow seabed areas facing intense climatological and anthropogenic pressures. Current methods utilizing airborne or satellite optical imagery to derive bathymetry primarily rely on either Structure-from-Motion and Multi-View Stereo (SfM-MVS) with refraction correction or Spectrally Derived Bathymetry (SDB). However, SDB methods often require extensive manual fieldwork or costly reference data, while SfM-MVS approaches face challenges even after refraction correction. These include depth data gaps and noise in environments with homogeneous visual textures, which hinder the creation of accurate and complete Digital Surface Models (DSMs) of the seabed. To address these challenges, this work introduces a methodology that combines the high-fidelity 3D reconstruction capabilities of the SfM-MVS methods with state-of-the-art refraction correction techniques, along with the spectral analysis capabilities of a new deep learning-based method for bathymetry prediction. This integration enables a synergistic approach where SfM-MVS derived DSMs with data gaps are used as training data to generate complete bathymetric maps. In this context, we propose Swin-BathyUNet that combines U-Net with Swin Transformer self-attention layers and a cross-attention mechanism, specifically tailored for SDB. Swin-BathyUNet is designed to improve bathymetric accuracy by capturing long-range spatial relationships and can also function as a standalone solution for standard SDB with various training depth data, independent of the SfM-MVS output. Experimental results in two completely different test sites in the Mediterranean and Baltic Seas demonstrate the effectiveness of the proposed approach through extensive experiments that demonstrate improvements in bathymetric accuracy, detail, coverage, and noise reduction in the predicted DSM.
+Accurate, detailed, and regularly updated bathymetry, coupled with complex semantic content, is essential for under-mapped shallow-water environments facing increasing climatological and anthropogenic pressures. However, existing approaches that derive either depth or seabed classes from remote sensing imagery treat these tasks in isolation, forfeiting the mutual benefits of their interaction and hindering broader adoption of deep learning methods. To address these limitations, we introduce Seabed-Net, a unified multi-task framework that simultaneously predicts bathymetry and pixel-based seabed classification from remote sensing imagery of various resolutions. Seabed-Net employs dualbranch encoders for bathymetry estimation and pixel-based seabed classification, integrates cross-task features via an Attention Feature Fusion module and a windowed Swin-Transformer fusion block, and balances objectives through dynamic task uncertainty weighting. In extensive evaluations at two heterogeneous coastal sites, it reduces bathymetric RMSE by 10-30% compared to single-task and state-of-the-art multi-task baselines and improves seabed classification accuracy up to 8%. Qualitative analyses further demonstrate enhanced spatial consistency, sharper habitat boundaries, and corrected depth biases in low-contrast regions. These results confirm that jointly modeling depth with both substrate and seabed habitats yields synergistic gains, offering a robust, open solution for integrated shallow-water mapping. Code and pretrained models will be made available upon acceptance.
 
 
 ## Citation
@@ -23,14 +22,14 @@ If you find this repository useful, please consider giving a star ⭐.
 If you use the code in this repository please cite:
 
 >Panagiotis Agrafiotis, Begüm Demir,
-Deep learning-based bathymetry retrieval without in-situ depths using remote sensing imagery and SfM-MVS DSMs with data gaps,
+Seabed-Net: A multi-task network for joint bathymetry and pixel-based seabed classification from remote sensing imagery in shallow waters,
 ISPRS Journal of Photogrammetry and Remote Sensing,
-Volume 225,
+Volume XXX,
 2025,
-Pages 341-361,
-ISSN 0924-2716,
-https://doi.org/10.1016/j.isprsjprs.2025.04.020.
+Pages XXX-XXX,
+ISSN 0924-2716
 <br />
+
 
 ```
 @article{AGRAFIOTIS2025341,
@@ -62,10 +61,9 @@ If you use the dataset please cite:
 ```
 
 # Architecture Overview
-Swin-BathyUNet combines U-Net with Swin Transformer self-attention layers and a cross-attention mechanism, tailored specifically for SDB.
+Seabed-NeT jointly estimates bathymetric depth and performs pixel-level seabed classification from satellite and aerial remote sensing imagery. Unlike prior models that treat these tasks independently or use one as an auxiliary, Seabed-Net employs a multi-task framework, where both outputs are supervised and contribute to shared representation learning. The architecture integrates spatially adaptive attention (FAA) and Vision Transformer (ViT) components, enabling it to capture both local and global features across diverse sensing modalities.
 
-![unetswin10](https://github.com/user-attachments/assets/abbba1fb-d56b-400c-9edb-e7a08535a6f0)
-
+![seabed-net](https://github.com/user-attachments/assets/eacca1dc-60aa-4c15-a525-ab4d98600a08)
 
 
 # Getting started
@@ -76,7 +74,7 @@ For downloading the dataset and a detailed explanation of it  (in case you don't
 
 ## Clone the repo
 
-`git clone https://github.com/pagraf/Swin-BathyUNet.git`
+`git clone https://github.com/pagraf/Seabed-Net.git`
 
 ## Installation Guide
 The requirements are easily installed via Anaconda (recommended):
@@ -91,18 +89,16 @@ After the installation is completed, activate the environment:
 To train and test the model use **Swin-BathyUNet_MVS_SDB_Intergration_pub.ipynb**.
  
 ## Example testing results
-Example aerial patch (GSD=0.25m) of the Agia Napa area (left), refraction corrected SfM-MVS priors used for training, and predicted bathymetry obtained by the Dual Attention Network (right). 
+![figure5](https://github.com/user-attachments/assets/529e3dfa-9ead-4570-adb6-b99e496a87e5)
+Bathymetry retrieval results on the aerial, SPOT 6 and Sentinel-2 modalities from the compared single-task and
+multi-task approaches. (a) True color composite of example patches acquired over Agia Napa, bathymetry obtained by (b)
+UNet-Bathy, (c) PAD-Net, (d) MTI-Net, (e) MTL, (f) JSH-Net, (g) TaskPrompter, (h) Seabed-Net and (i) LiDAR/SONAR.
 
-![img_410](https://github.com/user-attachments/assets/85e891e3-70d0-46f1-bdbc-23df9fc6128c)
-![sfm_410](https://github.com/user-attachments/assets/3f35fa83-4ec4-4eea-b714-3d49f62de928)
-![inference_410](https://github.com/user-attachments/assets/dfbf6552-6eb0-4ef7-b3c3-ccd41f439c6c)
+![figure7](https://github.com/user-attachments/assets/68f3de1e-3e2c-4bd7-962b-eb89875cfb84)
+Pixel-based classification results on the aerial, SPOT 6 and Sentinel-2 modalities from the compared single-task and
+multi-task approaches. (a) True color composite of example patches acquired over Agia Napa, seabed classes obtained by (b)
+U-Net, (c) SegFormer, (d) PAD-Net, (e) MTI-Net, (f) MTL, (g) JSH-Net, (h) TaskPrompter, and (i) Seabed-Net. 
 
-
-Example Sentinel-2 patch (GSD=10m) of the Agia Napa area (left), refraction corrected SfM-MVS priors used for training, and predicted bathymetry obtained by the Dual Attention Network (right). 
-
-![img_410_s2](https://github.com/user-attachments/assets/2f02c6d4-4079-4ef6-b0a6-6c0bf678191c)
-![sfm_410](https://github.com/user-attachments/assets/3f35fa83-4ec4-4eea-b714-3d49f62de928)
-![depth_410_s2](https://github.com/user-attachments/assets/0c090aab-62a5-42c1-80bb-4be95556ff73)
 
 For more information on the results and accuracy achieved read our [paper](https://doi.org/10.1016/j.isprsjprs.2025.04.020). 
 
