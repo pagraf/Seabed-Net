@@ -111,6 +111,4 @@ Feel free to give feedback, by sending an email to: agrafiotis@tu-berlin.de
 <br />
 
 # Funding
-![logo](https://github.com/user-attachments/assets/06494746-17c9-4995-a08c-3ac77880d71e)
-
 This work is part of **MagicBathy project funded by the European Union’s HORIZON Europe research and innovation programme under the Marie Skłodowska-Curie GA 101063294**. Work has been carried out at the [Remote Sensing Image Analysis group](https://rsim.berlin/). For more information about the project visit [https://www.magicbathy.eu/](https://www.magicbathy.eu/).
