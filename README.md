@@ -63,7 +63,8 @@ If you use the dataset please cite:
 # Architecture Overview
 Seabed-NeT jointly estimates bathymetric depth and performs pixel-level seabed classification from satellite and aerial remote sensing imagery. Unlike prior models that treat these tasks independently or use one as an auxiliary, Seabed-Net employs a multi-task framework, where both outputs are supervised and contribute to shared representation learning. The architecture integrates spatially adaptive attention (FAA) and Vision Transformer (ViT) components, enabling it to capture both local and global features across diverse sensing modalities.
 
-![seabed-net](https://github.com/user-attachments/assets/eacca1dc-60aa-4c15-a525-ab4d98600a08)
+<img width="2063" height="938" alt="seabed-net" src="https://github.com/user-attachments/assets/d17de0a0-1d16-47c0-a5cb-11daa8be686f" />
+
 
 
 # Getting started
