@@ -87,6 +87,19 @@ After the installation is completed, activate the environment:
 
 ## Train and Test the models
 To train and test the model use **Swin-BathyUNet_MVS_SDB_Intergration_pub.ipynb**.
+
+
+## Pre-trained Seabed-Net Models
+We provide model weights for the following modalities and areas:
+
+| Model Names | Pre-Trained PyTorch Models                                                                                | 
+| ----------- |-----------------------------------------------------------------------------------------------------------|
+| Seabed-Net - Agia Napa - Aerial | [NDR-Restore.zip](https://drive.google.com/file/d/1PCpxUCybtARTBV1Yv2W3Fxvxk8kOGNRz/view?usp=sharing)  |
+| Seabed-Net - Agia Napa - SPOT 6 | [NDR-Restore.zip](https://drive.google.com/file/d/14EJWjRYFL8loZa3cd_PgpcIEAbnHQjGG/view?usp=sharing)  |
+| Seabed-Net - Agia Napa - S2 | [NDR-Restore.zip](https://drive.google.com/file/d/1VFfrhoQyNxqgxZeb-ZADaxucgwjnZA_b/view?usp=sharing)  |
+| Seabed-Net - Puck Lagoon - Aerial | [NDR-Restore.zip](https://drive.google.com/file/d/1F2Ni6jaKlb0AOPWJX7V8ipVD3ca2uFz1/view?usp=sharing)  |
+| Seabed-Net - Puck Lagoon - SPOT 6 | [NDR-Restore.zip](https://drive.google.com/file/d/1P-F8f4KqsyjavMvvvIwkLlxuLdfDQyC2/view?usp=sharing)  |
+| Seabed-Net - Puck Lagoon - S2 | [NDR-Restore.zip](https://drive.google.com/file/d/13LMVHxhsMn_6DnH7G_jBbui-Jt_Ce3h3/view?usp=sharing)  |
  
 ## Example testing results
 ![figure5](https://github.com/user-attachments/assets/529e3dfa-9ead-4570-adb6-b99e496a87e5)
