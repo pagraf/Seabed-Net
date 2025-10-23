@@ -107,7 +107,7 @@ multi-task approaches. (a) True color composite of example patches acquired over
 U-Net, (c) SegFormer, (d) PAD-Net, (e) MTI-Net, (f) MTL, (g) JSH-Net, (h) TaskPrompter, and (i) Seabed-Net. 
 
 
-For more information on the results and accuracy achieved read our [paper](https://doi.org/10.1016/j.isprsjprs.2025.04.020). 
+For more information on the results and accuracy achieved read our [paper](https://arxiv.org/abs/2510.19329). 
 
 ## Authors
 Panagiotis Agrafiotis [https://www.user.tu-berlin.de/pagraf/](https://www.user.tu-berlin.de/pagraf/)
