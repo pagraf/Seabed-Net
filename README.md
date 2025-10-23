@@ -1,13 +1,9 @@
 # Seabed-Net: A multi-task network for joint bathymetry and pixel-based seabed classification from remote sensing imagery in shallow waters
 
-This repository contains the code of the paper 
+This repository contains the code of the article 
 >Panagiotis Agrafiotis, Begüm Demir,
 Seabed-Net: A multi-task network for joint bathymetry and pixel-based seabed classification from remote sensing imagery in shallow waters,
-ISPRS Journal of Photogrammetry and Remote Sensing,
-Volume XXX,
-2025,
-Pages XXX-XXX,
-ISSN 0924-2716
+ISPRS Journal of Photogrammetry and Remote Sensing (under review)
 <br />
 
 ## Abstract of the respective paper [![Elsevier Paper](https://img.shields.io/static/v1?label=Elsevier&message=Paper&color=FF6600)]() [![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2510.19329) [![MagicBathy](https://img.shields.io/badge/MagicBathy-Project-red.svg)](https://www.magicbathy.eu)
