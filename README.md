@@ -10,8 +10,8 @@ Pages XXX-XXX,
 ISSN 0924-2716
 <br />
 
-## Abstract of the respective paper [![Elsevier Paper](https://img.shields.io/static/v1?label=Elsevier&message=Paper&color=FF6600)](https://doi.org/10.1016/j.isprsjprs.2025.04.020) [![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2504.11416) [![MagicBathy](https://img.shields.io/badge/MagicBathy-Project-red.svg)](https://www.magicbathy.eu)
-Accurate, detailed, and regularly updated bathymetry, coupled with complex semantic content, is essential for under-mapped shallow-water environments facing increasing climatological and anthropogenic pressures. However, existing approaches that derive either depth or seabed classes from remote sensing imagery treat these tasks in isolation, forfeiting the mutual benefits of their interaction and hindering broader adoption of deep learning methods. To address these limitations, we introduce Seabed-Net, a unified multi-task framework that simultaneously predicts bathymetry and pixel-based seabed classification from remote sensing imagery of various resolutions. Seabed-Net employs dualbranch encoders for bathymetry estimation and pixel-based seabed classification, integrates cross-task features via an Attention Feature Fusion module and a windowed Swin-Transformer fusion block, and balances objectives through dynamic task uncertainty weighting. In extensive evaluations at two heterogeneous coastal sites, it reduces bathymetric RMSE by 10-30% compared to single-task and state-of-the-art multi-task baselines and improves seabed classification accuracy up to 8%. Qualitative analyses further demonstrate enhanced spatial consistency, sharper habitat boundaries, and corrected depth biases in low-contrast regions. These results confirm that jointly modeling depth with both substrate and seabed habitats yields synergistic gains, offering a robust, open solution for integrated shallow-water mapping. Code and pretrained models will be made available upon acceptance.
+## Abstract of the respective paper [![Elsevier Paper](https://img.shields.io/static/v1?label=Elsevier&message=Paper&color=FF6600)]() [![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2510.19329) [![MagicBathy](https://img.shields.io/badge/MagicBathy-Project-red.svg)](https://www.magicbathy.eu)
+Accurate, detailed, and regularly updated bathymetry, coupled with complex semantic content, is essential for under-mapped shallow-water environments facing increasing climatological and anthropogenic pressures. However, existing approaches that derive either depth or seabed classes from remote sensing imagery treat these tasks in isolation, forfeiting the mutual benefits of their interaction and hindering broader adoption of deep learning methods. To address these limitations, we introduce Seabed-Net, a unified multi-task framework that simultaneously predicts bathymetry and pixel-based seabed classification from remote sensing imagery of various resolutions. Seabed-Net employs dualbranch encoders for bathymetry estimation and pixel-based seabed classification, integrates cross-task features via an Attention Feature Fusion module and a windowed Swin-Transformer fusion block, and balances objectives through dynamic task uncertainty weighting. In extensive evaluations at two heterogeneous coastal sites, it reduces bathymetric RMSE by 10-30% compared to single-task and state-of-the-art multi-task baselines and improves seabed classification accuracy up to 8%. Qualitative analyses further demonstrate enhanced spatial consistency, sharper habitat boundaries, and corrected depth biases in low-contrast regions. These results confirm that jointly modeling depth with both substrate and seabed habitats yields synergistic gains, offering a robust, open solution for integrated shallow-water mapping. .
 
 
 ## Citation
@@ -21,27 +21,24 @@ If you find this repository useful, please consider giving a star ⭐.
 
 If you use the code in this repository please cite:
 
->Panagiotis Agrafiotis, Begüm Demir,
-Seabed-Net: A multi-task network for joint bathymetry and pixel-based seabed classification from remote sensing imagery in shallow waters,
-ISPRS Journal of Photogrammetry and Remote Sensing,
-Volume XXX,
+>Panagiotis Agrafiotis and Begüm Demir,
+Seabed-Net: A multi-task network for joint bathymetry estimation and seabed classification from remote sensing imagery in shallow waters,
+arXiv,
+2510.19329,
 2025,
-Pages XXX-XXX,
-ISSN 0924-2716
+https://doi.org/10.48550/arXiv.2510.19329
 <br />
 
 
 ```
-@article{AGRAFIOTIS2025341,
-title = {Deep learning-based bathymetry retrieval without in-situ depths using remote sensing imagery and SfM-MVS DSMs with data gaps},
-journal = {ISPRS Journal of Photogrammetry and Remote Sensing},
-volume = {225},
-pages = {341-361},
-year = {2025},
-issn = {0924-2716},
-doi = {https://doi.org/10.1016/j.isprsjprs.2025.04.020},
-url = {https://www.sciencedirect.com/science/article/pii/S0924271625001522},
-author = {Panagiotis Agrafiotis and Begüm Demir},
+@misc{agrafiotis2025seabednetmultitasknetworkjoint,
+      title={Seabed-Net: A multi-task network for joint bathymetry estimation and seabed classification from remote sensing imagery in shallow waters}, 
+      author={Panagiotis Agrafiotis and Begüm Demir},
+      year={2025},
+      eprint={2510.19329},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2510.19329}, 
 }
 ```
 
