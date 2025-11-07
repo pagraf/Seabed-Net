@@ -2,8 +2,13 @@
 
 This repository contains the code of the article 
 >Panagiotis Agrafiotis, Begüm Demir,
-Seabed-Net: A multi-task network for joint bathymetry and pixel-based seabed classification from remote sensing imagery in shallow waters,
-ISPRS Journal of Photogrammetry and Remote Sensing (under review)
+Seabed-Net: A multi-task network for joint bathymetry estimation and seabed classification from remote sensing imagery in shallow waters,
+ISPRS Journal of Photogrammetry and Remote Sensing,
+Volume 231,
+2026,
+Pages 414-430,
+ISSN 0924-2716,
+https://doi.org/10.1016/j.isprsjprs.2025.11.007.
 <br />
 
 ## Abstract of the respective paper [![Elsevier Paper](https://img.shields.io/static/v1?label=Elsevier&message=Paper&color=FF6600)]() [![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2510.19329) [![MagicBathy](https://img.shields.io/badge/MagicBathy-Project-red.svg)](https://www.magicbathy.eu)
@@ -17,24 +22,29 @@ If you find this repository useful, please consider giving a star ⭐.
 
 If you use the code in this repository please cite:
 
->Panagiotis Agrafiotis and Begüm Demir,
+>Panagiotis Agrafiotis, Begüm Demir,
 Seabed-Net: A multi-task network for joint bathymetry estimation and seabed classification from remote sensing imagery in shallow waters,
-arXiv,
-2510.19329,
-2025,
-https://doi.org/10.48550/arXiv.2510.19329
+ISPRS Journal of Photogrammetry and Remote Sensing,
+Volume 231,
+2026,
+Pages 414-430,
+ISSN 0924-2716,
+https://doi.org/10.1016/j.isprsjprs.2025.11.007.
 <br />
 
 
 ```
-@misc{agrafiotis2025seabednetmultitasknetworkjoint,
-      title={Seabed-Net: A multi-task network for joint bathymetry estimation and seabed classification from remote sensing imagery in shallow waters}, 
-      author={Panagiotis Agrafiotis and Begüm Demir},
-      year={2025},
-      eprint={2510.19329},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2510.19329}, 
+@article{AGRAFIOTIS2026414,
+title = {Seabed-Net: A multi-task network for joint bathymetry estimation and seabed classification from remote sensing imagery in shallow waters},
+journal = {ISPRS Journal of Photogrammetry and Remote Sensing},
+volume = {231},
+pages = {414-430},
+year = {2026},
+issn = {0924-2716},
+doi = {https://doi.org/10.1016/j.isprsjprs.2025.11.007},
+url = {https://www.sciencedirect.com/science/article/pii/S0924271625004460},
+author = {Panagiotis Agrafiotis and Begüm Demir},
+keywords = {Multi-task learning, Remote sensing, Shallow-water mapping, Seabed classification, Learning-based bathymetry, Deep learning},
 }
 ```
 
