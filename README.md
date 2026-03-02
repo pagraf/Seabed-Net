@@ -120,10 +120,10 @@ U-Net, (c) SegFormer, (d) PAD-Net, (e) MTI-Net, (f) MTL, (g) JSH-Net, (h) TaskPr
 For more information on the results and accuracy achieved read our [paper](https://arxiv.org/abs/2510.19329). 
 
 ## Authors
-Panagiotis Agrafiotis [https://www.user.tu-berlin.de/pagraf/](https://www.user.tu-berlin.de/pagraf/)
+Panagiotis Agrafiotis [http://users.ntua.gr/pagraf/](http://users.ntua.gr/pagraf/)
 
 ## Feedback
-Feel free to give feedback, by sending an email to: agrafiotis@tu-berlin.de
+Feel free to give feedback, by sending an email to: pagraf@central.ntua.gr
 <br />
 <br />
 
