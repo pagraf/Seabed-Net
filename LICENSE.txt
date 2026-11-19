@@ -1,13 +1,42 @@
-Attribution-NonCommercial-ShareAlike 4.0 International License
+Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
 
 Copyright (c) 2025 Panagiotis Agrafiotis
 
+PUBLIC NON-COMMERCIAL LICENCE
 
-This license requires that reusers give credit to the creator. It allows reusers 
-to distribute, remix, adapt, and build upon the material in any medium or format,
-for noncommercial purposes only. If others modify or adapt the material, they 
-must license the modified material under identical terms.
+The original materials released in this repository are provided under the Creative
+Commons Attribution-NonCommercial-ShareAlike 4.0 International licence, except
+where third-party material or a separate notice states otherwise.
 
+Licence information: https://creativecommons.org/licenses/by-nc-sa/4.0/
+Full legal code: https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
+
+Under the public licence, users may share and adapt licensed material for
+non-commercial purposes, provided they give appropriate attribution, indicate
+changes, and distribute adaptations under the same licence. Please consult the
+full legal code for the complete rights, obligations and definitions.
+
+COMMERCIAL APPLICATIONS AND LICENSING
+
+The public licence does not grant permission for commercial use. Commercial
+licensing enquiries, professional integration and operational deployment are
+coordinated through 3DeepVision P.C.:
+
+Website: https://3deepvision.eu/
+
+Commercial use requires a separate written agreement with the applicable
+rights holder(s). 3DeepVision acts as the commercial contact; this notice does
+not transfer copyright or imply rights beyond those held or authorised by the
+relevant rights holder(s).
+
+THIRD-PARTY MATERIAL
+
+Third-party libraries, external datasets, satellite imagery and other
+third-party content are governed by their respective licence terms. Users
+should also review any separate terms accompanying externally hosted model
+weights and datasets. This notice does not grant rights to third-party works.
+
+DISCLAIMER OF WARRANTY
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
@@ -17,4 +46,5 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-For commercial applications contact the creator: agrafiotis.panagiotis@gmail.com
+The preceding summary is explanatory. In case of inconsistency, the published
+CC BY-NC-SA 4.0 legal code governs the material licensed under it.
